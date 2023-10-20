@@ -1,7 +1,53 @@
+/* main styles */
 body {
-    background: url(../images/10719974.jpg);
+    background-image: url(../images/13193.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+a {
+    text-decoration: none !important;
+}
+/* end of main styles */
+
+.input-side {
+    height: 70vh;
+}
+
+.img-side {
+    background: url(../images/13190.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.cs-border {
+    width: 28px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #8854d0;
+    /* border: 2px solid #8854d0; */        /* old way */
+}
+
+.input-icon {
+    color: #8854d0 !important;
+}
+
+.cs-input , .input-icon {
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.input-group {
+    border-bottom: 1px solid #8854d0 !important;
+}
+
+.forgot-pass {
+    color: #8854d0;
+    margin-top: 10px !important;
+    display: block;
 }
