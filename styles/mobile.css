@@ -1,0 +1,31 @@
+@media screen and (max-width:991px) {
+    .img-side {
+        display: none;
+    }
+
+    .input-side {
+        background: url(../images/13190.jpg);
+        color: white;
+        height: 100vh;
+    }
+
+    .cs-input {
+        background: transparent !important;
+    }
+
+    .input-icon {
+        background: transparent !important;
+    }
+
+    input::placeholder {
+        color: gainsboro !important;
+    }
+
+    * {
+        font-weight: bold !important;
+    }
+
+    body {
+        background: transparent !important;
+    }
+}
